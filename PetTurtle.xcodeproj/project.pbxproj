@@ -14,6 +14,8 @@
 		7D8FCE421D50E87D00AF1EF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D8FCE411D50E87D00AF1EF1 /* Assets.xcassets */; };
 		7D8FCE451D50E87D00AF1EF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D8FCE431D50E87D00AF1EF1 /* LaunchScreen.storyboard */; };
 		7D8FCE501D50E87D00AF1EF1 /* PetTurtleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8FCE4F1D50E87D00AF1EF1 /* PetTurtleTests.swift */; };
+		7D8FCE5B1D50F00500AF1EF1 /* Turtle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8FCE5A1D50F00500AF1EF1 /* Turtle.swift */; };
+		7D8FCE5E1D50F15300AF1EF1 /* TurtleSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8FCE5D1D50F15300AF1EF1 /* TurtleSpec.swift */; };
 		99BFF8CA1E062C1676F7F0B1 /* Pods_PetTurtle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CDFC7350C7159F59A1FC02D /* Pods_PetTurtle.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +43,8 @@
 		7D8FCE4B1D50E87D00AF1EF1 /* PetTurtleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetTurtleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D8FCE4F1D50E87D00AF1EF1 /* PetTurtleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetTurtleTests.swift; sourceTree = "<group>"; };
 		7D8FCE511D50E87D00AF1EF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D8FCE5A1D50F00500AF1EF1 /* Turtle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Turtle.swift; sourceTree = "<group>"; };
+		7D8FCE5D1D50F15300AF1EF1 /* TurtleSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TurtleSpec.swift; sourceTree = "<group>"; };
 		801AE2C4F1793C7374610DF5 /* Pods-PetTurtleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PetTurtleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PetTurtleTests/Pods-PetTurtleTests.release.xcconfig"; sourceTree = "<group>"; };
 		B975C4EA811D5F6BA47F961C /* Pods-PetTurtleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PetTurtleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PetTurtleTests/Pods-PetTurtleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BFE7025F506CFBB6270FDD46 /* Pods_PetTurtleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PetTurtleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,6 +95,7 @@
 			children = (
 				7D8FCE3A1D50E87D00AF1EF1 /* AppDelegate.swift */,
 				7D8FCE3C1D50E87D00AF1EF1 /* ViewController.swift */,
+				7D8FCE5A1D50F00500AF1EF1 /* Turtle.swift */,
 				7D8FCE3E1D50E87D00AF1EF1 /* Main.storyboard */,
 				7D8FCE411D50E87D00AF1EF1 /* Assets.xcassets */,
 				7D8FCE431D50E87D00AF1EF1 /* LaunchScreen.storyboard */,
@@ -102,10 +107,19 @@
 		7D8FCE4E1D50E87D00AF1EF1 /* PetTurtleTests */ = {
 			isa = PBXGroup;
 			children = (
+				7D8FCE5D1D50F15300AF1EF1 /* TurtleSpec.swift */,
+				7D8FCE5C1D50F12200AF1EF1 /* Test Supporting Files */,
+			);
+			path = PetTurtleTests;
+			sourceTree = "<group>";
+		};
+		7D8FCE5C1D50F12200AF1EF1 /* Test Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				7D8FCE4F1D50E87D00AF1EF1 /* PetTurtleTests.swift */,
 				7D8FCE511D50E87D00AF1EF1 /* Info.plist */,
 			);
-			path = PetTurtleTests;
+			name = "Test Supporting Files";
 			sourceTree = "<group>";
 		};
 		CF3845B292359AB3B2B61527 /* Pods */ = {
@@ -330,6 +344,7 @@
 			files = (
 				7D8FCE3D1D50E87D00AF1EF1 /* ViewController.swift in Sources */,
 				7D8FCE3B1D50E87D00AF1EF1 /* AppDelegate.swift in Sources */,
+				7D8FCE5B1D50F00500AF1EF1 /* Turtle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +352,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D8FCE5E1D50F15300AF1EF1 /* TurtleSpec.swift in Sources */,
 				7D8FCE501D50E87D00AF1EF1 /* PetTurtleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
