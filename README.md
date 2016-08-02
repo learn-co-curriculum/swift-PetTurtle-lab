@@ -1,4 +1,4 @@
-# Pet Turtle (1st Lab)
+# Pet Turtle (1st Xcode Lab)
 
 ![](http://i.imgur.com/hVm78Ya.jpg)  
 
