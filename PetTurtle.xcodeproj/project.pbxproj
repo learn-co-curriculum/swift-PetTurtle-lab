@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		720D4AED8D2715194C372039 /* Pods_PetTurtleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE7025F506CFBB6270FDD46 /* Pods_PetTurtleTests.framework */; };
 		7D8FCE3B1D50E87D00AF1EF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8FCE3A1D50E87D00AF1EF1 /* AppDelegate.swift */; };
 		7D8FCE3D1D50E87D00AF1EF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8FCE3C1D50E87D00AF1EF1 /* ViewController.swift */; };
 		7D8FCE401D50E87D00AF1EF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D8FCE3E1D50E87D00AF1EF1 /* Main.storyboard */; };
 		7D8FCE421D50E87D00AF1EF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D8FCE411D50E87D00AF1EF1 /* Assets.xcassets */; };
 		7D8FCE451D50E87D00AF1EF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D8FCE431D50E87D00AF1EF1 /* LaunchScreen.storyboard */; };
 		7D8FCE501D50E87D00AF1EF1 /* PetTurtleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8FCE4F1D50E87D00AF1EF1 /* PetTurtleTests.swift */; };
+		99BFF8CA1E062C1676F7F0B1 /* Pods_PetTurtle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CDFC7350C7159F59A1FC02D /* Pods_PetTurtle.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1CDFC7350C7159F59A1FC02D /* Pods_PetTurtle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PetTurtle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28D4284CBA449AF556A8226E /* Pods-PetTurtle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PetTurtle.release.xcconfig"; path = "Pods/Target Support Files/Pods-PetTurtle/Pods-PetTurtle.release.xcconfig"; sourceTree = "<group>"; };
+		4E2B4369F422557CE58CDA21 /* Pods-PetTurtle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PetTurtle.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PetTurtle/Pods-PetTurtle.debug.xcconfig"; sourceTree = "<group>"; };
 		7D8FCE371D50E87D00AF1EF1 /* PetTurtle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetTurtle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D8FCE3A1D50E87D00AF1EF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7D8FCE3C1D50E87D00AF1EF1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +41,9 @@
 		7D8FCE4B1D50E87D00AF1EF1 /* PetTurtleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetTurtleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D8FCE4F1D50E87D00AF1EF1 /* PetTurtleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetTurtleTests.swift; sourceTree = "<group>"; };
 		7D8FCE511D50E87D00AF1EF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		801AE2C4F1793C7374610DF5 /* Pods-PetTurtleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PetTurtleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PetTurtleTests/Pods-PetTurtleTests.release.xcconfig"; sourceTree = "<group>"; };
+		B975C4EA811D5F6BA47F961C /* Pods-PetTurtleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PetTurtleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PetTurtleTests/Pods-PetTurtleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BFE7025F506CFBB6270FDD46 /* Pods_PetTurtleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PetTurtleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99BFF8CA1E062C1676F7F0B1 /* Pods_PetTurtle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				720D4AED8D2715194C372039 /* Pods_PetTurtleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +72,8 @@
 				7D8FCE391D50E87D00AF1EF1 /* PetTurtle */,
 				7D8FCE4E1D50E87D00AF1EF1 /* PetTurtleTests */,
 				7D8FCE381D50E87D00AF1EF1 /* Products */,
+				CF3845B292359AB3B2B61527 /* Pods */,
+				FCA2C6FAA634F06556AACD4A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +108,26 @@
 			path = PetTurtleTests;
 			sourceTree = "<group>";
 		};
+		CF3845B292359AB3B2B61527 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4E2B4369F422557CE58CDA21 /* Pods-PetTurtle.debug.xcconfig */,
+				28D4284CBA449AF556A8226E /* Pods-PetTurtle.release.xcconfig */,
+				B975C4EA811D5F6BA47F961C /* Pods-PetTurtleTests.debug.xcconfig */,
+				801AE2C4F1793C7374610DF5 /* Pods-PetTurtleTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FCA2C6FAA634F06556AACD4A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1CDFC7350C7159F59A1FC02D /* Pods_PetTurtle.framework */,
+				BFE7025F506CFBB6270FDD46 /* Pods_PetTurtleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +135,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7D8FCE541D50E87D00AF1EF1 /* Build configuration list for PBXNativeTarget "PetTurtle" */;
 			buildPhases = (
+				5CBA081FA8719D97C0604657 /* [CP] Check Pods Manifest.lock */,
 				7D8FCE331D50E87D00AF1EF1 /* Sources */,
 				7D8FCE341D50E87D00AF1EF1 /* Frameworks */,
 				7D8FCE351D50E87D00AF1EF1 /* Resources */,
+				3B433238CC4AA98BE669D19A /* [CP] Embed Pods Frameworks */,
+				6048121FEEF7DE34A185B53A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7D8FCE571D50E87D00AF1EF1 /* Build configuration list for PBXNativeTarget "PetTurtleTests" */;
 			buildPhases = (
+				5F0EBA1109A91C5FB1ED6648 /* [CP] Check Pods Manifest.lock */,
 				7D8FCE471D50E87D00AF1EF1 /* Sources */,
 				7D8FCE481D50E87D00AF1EF1 /* Frameworks */,
 				7D8FCE491D50E87D00AF1EF1 /* Resources */,
+				710BE912A597DF10317B0B97 /* [CP] Embed Pods Frameworks */,
+				9F514A71910159371740713D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -191,6 +229,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3B433238CC4AA98BE669D19A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PetTurtle/Pods-PetTurtle-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5CBA081FA8719D97C0604657 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5F0EBA1109A91C5FB1ED6648 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6048121FEEF7DE34A185B53A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PetTurtle/Pods-PetTurtle-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		710BE912A597DF10317B0B97 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PetTurtleTests/Pods-PetTurtleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F514A71910159371740713D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PetTurtleTests/Pods-PetTurtleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7D8FCE331D50E87D00AF1EF1 /* Sources */ = {
@@ -325,6 +456,7 @@
 		};
 		7D8FCE551D50E87D00AF1EF1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E2B4369F422557CE58CDA21 /* Pods-PetTurtle.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PetTurtle/Info.plist;
@@ -336,6 +468,7 @@
 		};
 		7D8FCE561D50E87D00AF1EF1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28D4284CBA449AF556A8226E /* Pods-PetTurtle.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PetTurtle/Info.plist;
@@ -347,6 +480,7 @@
 		};
 		7D8FCE581D50E87D00AF1EF1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B975C4EA811D5F6BA47F961C /* Pods-PetTurtleTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = PetTurtleTests/Info.plist;
@@ -359,6 +493,7 @@
 		};
 		7D8FCE591D50E87D00AF1EF1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 801AE2C4F1793C7374610DF5 /* Pods-PetTurtleTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = PetTurtleTests/Info.plist;
@@ -388,6 +523,7 @@
 				7D8FCE561D50E87D00AF1EF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7D8FCE571D50E87D00AF1EF1 /* Build configuration list for PBXNativeTarget "PetTurtleTests" */ = {
 			isa = XCConfigurationList;
@@ -396,6 +532,7 @@
 				7D8FCE591D50E87D00AF1EF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
